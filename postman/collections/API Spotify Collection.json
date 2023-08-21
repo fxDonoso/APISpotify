@@ -1,0 +1,28 @@
+{
+	"info": {
+		"_postman_id": "9a9e5fcd-2587-470b-a359-84f6f884beae",
+		"name": "API Spotify Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "5469477-9a9e5fcd-2587-470b-a359-84f6f884beae"
+	},
+	"item": [
+		{
+			"name": "Request User Authorization",
+			"id": "9f258bd2-c752-4550-bcfd-1e1a987def36",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}",
+					"host": [
+						"{{baseURL}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
